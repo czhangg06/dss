@@ -1,0 +1,185 @@
+/* Base Template CSS*/
+body {
+  font-family: "Avenir";
+}
+
+.navbar {
+  background: #E8E8E8;
+  border: 0;
+  padding: 30px 30px 10px 0;
+  height: 100px;
+}
+
+h1, h4, h3 {
+  text-align: center;
+}
+
+#logo {
+  margin-top: -50px;
+  height: 120px;
+  width: 180px;
+}
+
+.btn-primary {
+  background: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 15px 15px 15px;
+}
+
+#navbar ul li a {
+  color: black;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#navbar ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+#join-btn {
+  background: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: black;
+}
+
+#footer {
+  color: white;
+  padding: 10px 20px 0 0;
+  height: 150px;
+  background: #191970;
+  position: relative;
+  margin-top: -150px;
+  clear: both;
+}
+
+#social {
+  color: white;
+  padding-left: 10px;
+}
+
+/*End Base Template CSS*/
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #00008B;
+}
+
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #00008B;
+  position: relative;
+}
+
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #00008B;
+}
+
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #00008B;
+}
+
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  padding-bottom: 15px;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline;
+     zoom:1;
+}
+
+.nav-tabs, 
+.nav-pills {
+    text-align: center;
+}
+
+#workshop,
+#decal {
+	padding-top: 20px;
+}
+
+#imgs {
+	padding-top: 60px;
+}
+
+#decal-buttons {
+  padding-left: 100px;
+}
+
+img {
+  border-radius: 10px;
+  width: 300px;
+  height: 130px;
+  margin: 15px 15px 15px 15px;
+}

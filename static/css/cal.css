@@ -1,0 +1,66 @@
+body {
+	font-family: "Avenir";
+}
+
+.navbar {
+	background: #E8E8E8;
+	border: 0;
+	padding: 30px 30px 10px 0;
+	height: 100px;
+}
+
+h1, h4, h3 {
+	text-align: center;
+}
+
+#regular-logo {
+	margin-top: -50px;
+	height: 120px;
+	width: 180px;
+}
+
+.btn-primary {
+	background: white;
+	border: 1px solid white;
+	border-radius: 20px;
+	color: black;
+	padding: 15px 15px 15px 15px;
+}
+
+#navbar ul li a {
+	color: black;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+#navbar ul li a:hover {
+	border-bottom: 2px solid black;
+}
+
+#join-btn {
+	background: white;
+	border: 1px solid white;
+	border-radius: 20px;
+	color: black;
+}
+
+#footer {
+	color: white;
+	padding: 10px 20px 0 0;
+	height: 150px;
+	background: #191970;
+	position: relative;
+	margin-top: -150px;
+	clear: both;
+}
+
+#social {
+	color: white;
+	padding-left: 10px;
+}
+
+#cal {
+	float: right;
+	padding-right: 50px;
+	padding-top: 120px;
+}
