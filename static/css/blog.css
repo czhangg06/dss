@@ -79,3 +79,8 @@ h1, h4, h3 {
 	background: white;
 }
 
+hr {
+	width: 10%;
+	text-align: center;
+}
+

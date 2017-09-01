@@ -186,6 +186,18 @@ h1, h4, h3 {
     padding: 20px 10px 10px 20px;
 }
 
+.item img {
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  padding: 20px 10px 10px 20px;
+  margin: 20px 0 0 20px;
+}
+
+.imgContainer:hover,
+.item img:hover {
+  box-shadow: 3px 3px #D3D3D3;
+}
+
 img {
     width: 250px;
     height: 150px;
@@ -195,9 +207,20 @@ img {
 #past,
 #current {
   padding: 0 0 1000px 100px;
-  margin-bottom: 1000px;
+  margin-bottom: 800px;
 }
 
 .modal-body {
   background: white;
+}
+
+.margin-bottom-40 {
+  margin: auto;
+  max-width: 900px;
+}
+
+hr {
+  width: 10%;
+  text-align: centers;
+  color: #C0C0C0;
 }

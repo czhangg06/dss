@@ -64,6 +64,11 @@ h1, h4, h3 {
 /* End Navbar settings */
 
 /* Calendar */
+hr {
+	width: 10%;
+	text-align: center;
+}
+
 #all-elements {
 	width: 50%;
 }
