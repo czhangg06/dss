@@ -4,28 +4,41 @@ body {
 }
 
 .navbar {
-  background: #E8E8E8;
+  background: white;
   border: 0;
-  padding: 30px 30px 10px 0;
-  height: 100px;
+  padding: 20px 30px 20px 0;
+  height: 80px;
 }
 
 h1, h4, h3 {
   text-align: center;
 }
 
-#regular-logo {
-  margin-top: -50px;
-  height: 120px;
-  width: 180px;
+.navbar-brand img {
+  margin-top: -40px;
+  height: 90px;
+  width: 130px;
 }
 
 .btn-primary {
-  background: white;
-  border: 1px solid white;
+  background: #00004c;
   border-radius: 20px;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  padding: 10px 20px 10px 20px;
   color: black;
-  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+  border: 1px solid #00004c;
+  margin-right: 20px;
+}
+
+.button:hover {
+  background: #00004c;
+  color: white;
 }
 
 #navbar ul li a {
@@ -38,26 +51,29 @@ h1, h4, h3 {
   border-bottom: 2px solid black;
 }
 
-#join-btn {
-  background: white;
-  border: 1px solid white;
-  border-radius: 20px;
-  color: black;
+#mc_embed_signup {
+  clear:left; 
+  clear: right;
 }
 
 #footer {
   color: white;
   padding: 10px 20px 0 0;
   height: 150px;
-  background: #191970;
+  background: #00004c;
   position: relative;
   margin-top: -150px;
   clear: both;
+  display: block;
+  bottom: 0;
+}
+
+#all-social {
+  padding-left: 10px;
 }
 
 #social {
   color: white;
-  padding-left: 10px;
 }
 
 /* End Base Template CSS */
@@ -166,8 +182,9 @@ h1, h4, h3 {
     text-align: center;
 }
 
-.imgContainer {
-    float: left;
+.imgContainer a {
+    text-decoration: none;
+    color: black;
 }
 
 #about-us,
@@ -177,9 +194,29 @@ h1, h4, h3 {
     padding-top: 30px;
 }
 
-
 #about-us {
     margin: 0 200px 0 200px;
+    padding-bottom: 200px;
+}
+
+#about-us p {
+    font-size: 15px;
+}
+
+#meet-the-team {
+  margin-bottom: 450px;
+  padding-bottom: 450px;
+}
+
+#teams {
+  margin-bottom: 900px;
+  padding-bottom: 900px;
+}
+
+
+#alumni {
+  margin-bottom: 1400px;
+  padding-bottom: 1400px;
 }
 
 #exec,
@@ -188,8 +225,35 @@ h1, h4, h3 {
   margin: 0 0 0 100px;
 }
 
-#about-us p {
-    font-size: 15px;
+#all-team-icons {
+  float: left;
+  padding-left: 200px;
+}
+
+#team-icon {
+  width: 200px;
+  height: 200px;
+  margin: 20px 20px 20px 20px;
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#team-icon img {
+  width: 180px;
+  height: 150px;
+}
+
+#team-des {
+  float: right;
+  padding-right: 160px;
+  width: 700px;
+}
+
+#team-des h3,
+#team-des h4 {
+  text-align: left;
 }
 
 .imgContainer {
@@ -200,6 +264,11 @@ h1, h4, h3 {
   border: 1px solid #D3D3D3;
   border-radius: 10px;
   text-align: center;
+  float: left;
+}
+
+.imgContainer:hover {
+  box-shadow: 3px 3px #D3D3D3;
 }
 
 img {
@@ -208,6 +277,6 @@ img {
   border-radius: 10px;
 }
 
-.imgContainer:hover {
-  box-shadow: 3px 3px #D3D3D3;
+.modal-body {
+  background: white;
 }

@@ -1,30 +1,32 @@
+/* Basic settings */
 body {
 	font-family: "Avenir";
 }
 
-.navbar {
-	background: #E8E8E8;
-	border: 0;
-	padding: 30px 30px 10px 0;
-	height: 100px;
-}
-
 h1, h4, h3 {
-	text-align: center;
+  text-align: center;
+}
+/* End Basic settings */
+
+/* Navbar settings */
+.navbar-brand img {
+  margin-top: -40px;
+  height: 90px;
+  width: 130px;
 }
 
-#regular-logo {
-	margin-top: -50px;
-	height: 120px;
-	width: 180px;
+.navbar {
+  background: white;
+  border: 0;
+  padding: 20px 30px 20px 0;
+  height: 80px;
 }
 
 .btn-primary {
-	background: white;
-	border: 1px solid white;
-	border-radius: 20px;
-	color: black;
-	padding: 15px 15px 15px 15px;
+  background: #00004c;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px 10px 10px;
 }
 
 #navbar ul li a {
@@ -37,30 +39,74 @@ h1, h4, h3 {
 	border-bottom: 2px solid black;
 }
 
-#join-btn {
-	background: white;
-	border: 1px solid white;
-	border-radius: 20px;
-	color: black;
+#mc_embed_signup {
+	clear:left; 
+	clear: right;
 }
 
+.btn-outline-primary {
+	background: transparent;
+	padding: 10px 20px 10px 20px;
+	color: black;
+	border-radius: 10px;
+	border: 1px solid #00004c;
+	margin-right: 20px;
+}
+
+.button:hover {
+	background: #00004c;
+	color: white;
+}
+
+.modal-body {
+	background: white;
+}
+/* End Navbar settings */
+
+/* Calendar */
+#all-elements {
+	width: 50%;
+}
+
+iframe {
+	margin: 0 auto;
+	display: block;
+}
+/* End Calendar */
+
+/* Past events */
+img {
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  float: left;
+}
+
+.margin-bottom-40 {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	display: block;
+}
+/* End Past events */
+
+/* Footer */
 #footer {
 	color: white;
 	padding: 10px 20px 0 0;
 	height: 150px;
-	background: #191970;
+	background: #00004c;
 	position: relative;
 	margin-top: -150px;
 	clear: both;
+	display: block;
+}
+
+#all-social {
+	padding-left: 10px;
 }
 
 #social {
 	color: white;
-	padding-left: 10px;
 }
-
-#cal {
-	float: right;
-	padding-right: 50px;
-	padding-top: 120px;
-}
+/* End Footer */

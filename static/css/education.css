@@ -3,29 +3,24 @@ body {
   font-family: "Avenir";
 }
 
-.navbar {
-  background: #E8E8E8;
-  border: 0;
-  padding: 30px 30px 10px 0;
-  height: 100px;
-}
-
 h1, h4, h3 {
   text-align: center;
 }
+/* End base */
 
-#logo {
-  margin-top: -50px;
-  height: 120px;
-  width: 180px;
+/* Navbar */
+.navbar {
+  background: white;
+  border: 0;
+  padding: 20px 30px 20px 0;
+  height: 80px;
 }
 
-.btn-primary {
-  background: white;
-  border: 1px solid white;
-  border-radius: 20px;
-  color: black;
-  padding: 15px 15px 15px 15px;
+.navbar-brand img {
+  margin-top: -40px;
+  height: 90px;
+  width: 130px;
+  margin-left: 10px;
 }
 
 #navbar ul li a {
@@ -38,31 +33,60 @@ h1, h4, h3 {
   border-bottom: 2px solid black;
 }
 
-#join-btn {
-  background: white;
-  border: 1px solid white;
-  border-radius: 20px;
-  color: black;
+#mc_embed_signup {
+  clear:left; 
+  clear: right;
 }
 
+.btn-primary {
+  background: #00004c;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid #00004c;
+  margin-right: 20px;
+}
+
+.button:hover {
+  background: #00004c;
+  color: white;
+}
+
+.modal-body {
+  background: white;
+}
+/* End Navbar */
+
+/* Footer */
 #footer {
   color: white;
   padding: 10px 20px 0 0;
   height: 150px;
-  background: #191970;
+  background: #00004c;
   position: relative;
   margin-top: -150px;
   clear: both;
+  display: block;
+}
+
+#all-social {
+  padding-left: 10px;
 }
 
 #social {
   color: white;
-  padding-left: 10px;
 }
+/* End Footer */
 
-/*End Base Template CSS*/
 
-/* Default mode */
+/* Tabs */
 .tabbable-line > .nav-tabs {
   border: none;
   margin: 0px;
@@ -163,23 +187,46 @@ h1, h4, h3 {
 .nav-pills {
     text-align: center;
 }
+/* End tabs */
 
-#workshop,
-#decal {
-	padding-top: 20px;
-}
-
-#imgs {
-	padding-top: 60px;
-}
-
-#decal-buttons {
-  padding-left: 100px;
+/* Workshop */
+#workshop {
+	padding: 20px 0 0 100px;
 }
 
 img {
   border-radius: 10px;
   width: 300px;
-  height: 130px;
+  height: 150px;
   margin: 15px 15px 15px 15px;
 }
+/* End Workshop */
+
+/* Decal */
+#decal-buttons {
+  padding-left: 100px;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid #00004c;
+  margin-right: 20px;
+}
+
+#apply {
+  text-align: center;
+}
+
+.button:hover {
+  background: #00004c;
+  color: white;
+}
+
+#edu-content {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+/* End Decal */
