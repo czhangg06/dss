@@ -52,12 +52,10 @@ h1, h4, h3 {
 	display: block;
 }
 
-#all-social {
-	padding-left: 10px;
-}
-
 #social {
 	color: white;
+	padding-left: 40px;
+	text-decoration: none;
 }
 
 

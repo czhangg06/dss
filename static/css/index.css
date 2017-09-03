@@ -1,13 +1,20 @@
 /* Basic settings */
 body {
-	background: url(../img/f.jpg);
-	background-repeat: no-repeat;
 	font-family: "Avenir";
-	background-size: 100% 30%;
-	overflow-x: hidden;
 }
 
-h1, h4, h3 {
+#bg {
+	background: url(../img/background-op-mo.jpg) no-repeat;
+    background-size: cover;
+	overflow-x: hidden;
+	padding-bottom: 10%;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h1, h2, h4, h3 {
 	text-align: center;
 }
 /* End Basic settings */
@@ -38,7 +45,7 @@ h1, h4, h3 {
 }
 
 #mce-EMAIL1 {
-	max-width: 40%;
+	max-width: 500px;
 	margin: 0 auto;
 	text-align: left;
 }
@@ -77,9 +84,7 @@ h1, h4, h3 {
 
 #landing-text {
 	padding-top: 20%;
-	color: white;
-	font-weight: 200;
-	padding-bottom: 2%;
+	color: #ffffff;
 }
 
 #landing-buttons {
@@ -94,113 +99,86 @@ h1, h4, h3 {
 #landing-buttons:hover {
 	background: white;
 	color: black;
-	transition-delay: color 2s;
 }
 /* End Landing image and text */
 
 /* About */
-hr {
-	width: 10%;
-	text-align: center;
+#about {
+	height: 600px;
+	padding: 7% 15% 15% 15%;
+	justify-content: center;
 }
 
-#about {
-	padding: 45% 15% 5% 15%;
+#about p {
+	text-align: justify;
+	font-size: 25px;
 }
 
 #other-buttons {
 	text-align: center;
 }
 
-.imgContainer p {
-	text-align: center;
-}
+/* End About */
 
-#committees {
-	text-align: center;
+/* Start teams */
+#teams {
 	background: #E8E8E8;
-	padding: 10% 0 10% 0;
+	height: 600px;
+	padding: 7% 0 15% 0;
 }
 
-#all-comm-pics {
-	width: 50%;
-	margin: 0 auto;
-	text-align: left;
-	margin-bottom: 12%;	
-}
-
-#comm-pics {
-	width: 13%;
-	height: 100%;
-	padding: 3% 3% 3% 3%;
-	margin-right: 3%;
+.col-md-2 img {
+	width: 180px;
+	height: 160px;
 	border: 1px solid #C0C0C0;
 	border-radius: 10px;
-	float: left;
-	text-align: center;
+	padding: 10px 10px 10px 10px;
 }
 
-#comm-pics img {
-	width: 100%;
-	height: 100%;
-}
-
-#comm-pics:hover {
+.col-md-2 img:hover {
 	box-shadow: 3px 3px #D3D3D3;
 	background: white;
 }
 
-#all-comm-pics p {
-	font-size: 80%;
-}
-/* End About */
-
-
-/* Get Connected */
-#get-connected {
-	padding: 10% 0 20% 0;
-}
-
-#all-gc-icons {
-	width: 50%;
-	margin: 0 auto;
-	text-align: left;
-}
-
-#gc-icon {
-	width: 20%;
-	height: 100%;
-	padding: 2% 5% 2% 5%;
-	margin-right: 3%;
-	border: 1px solid #C0C0C0;
-	border-radius: 10px;
-	float: left;
+.col-md-2 p {
+	font-size: 18px;
 	text-align: center;
 }
+/* End Teams */
 
-#gc-icon:hover {
+
+/* Explore what we do */
+#explore {
+	max-height: 600px;
+	padding: 7% 0 15% 0;
+}
+
+.col-md-3 img {
+	width: 200px;
+	height: 180px;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #C0C0C0;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+}
+
+.col-md-3 img:hover {
 	box-shadow: 3px 3px #D3D3D3;
 }
 
-#gc-icon a {
-	color: black;
-	text-decoration: none;
-	justify-content: center;
-	font-size: 80%;
+.col-md-3 p {
+	font-size: 18px;
+	text-align: center;
 }
-
-#gc-icon img {
-	height: 100%;
-	width: 100%;
-}
-/* End Get Connected */
+/* End Explore */
 
 
 /* Get involved */
 #get-involved {
-	padding: 10% 0 15% 0;
+	height: 500px;
+	padding: 7% 0 15% 0;
 	background: #E8E8E8;
-	justify-content: center;
 }
 /* End Get involved */
 
@@ -210,16 +188,35 @@ hr {
 	padding: 10px 20px 0 0;
 	height: 180px;
 	background: #00004c;
-	margin-top: -180px;
 	clear: both;
+	bottom: 0;
+}
+
+#all-social {
+	padding-bottom: 15px;
 }
 
 #social {
 	color: white;
+	padding-left: 40px;
+	text-decoration: none;
 }
 
 #social img {
 	width: 100px;
 	height: 50px;
+}
+
+#ocf {
+	clear: both;
+	float: right;
+	position: absolute;
+	padding-bottom: 10px;
+	right: 0;
+	display: inline;
+}
+
+#footer .col-lg-1 {
+	padding: 0;
 }
 /* End footer */

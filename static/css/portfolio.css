@@ -1,5 +1,10 @@
+/* Base CSS */
 body {
   font-family: "Avenir";
+}
+
+h1, h4, h3 {
+  text-align: center;
 }
 
 .navbar {
@@ -8,11 +13,9 @@ body {
   padding: 20px 30px 20px 0;
   height: 80px;
 }
+/* End Base CSS */
 
-h1, h4, h3 {
-  text-align: center;
-}
-
+/* Nav bar */
 .navbar-brand img {
   margin-top: -40px;
   height: 90px;
@@ -40,7 +43,9 @@ h1, h4, h3 {
   clear:left; 
   clear: right;
 }
+/* End Navbar CSS */
 
+/* Footer */
 #footer {
   color: white;
   padding: 10px 20px 0 0;
@@ -52,12 +57,10 @@ h1, h4, h3 {
   display: block;
 }
 
-#all-social {
-  padding-left: 10px;
-}
-
 #social {
   color: white;
+  padding-left: 40px;
+  text-decoration: none;
 }
 
 .btn-outline-primary {
@@ -70,11 +73,12 @@ h1, h4, h3 {
 }
 
 .button:hover {
-  background: #00004c;
+  background: #A9A9A9;
   color: white;
 }
+/* End Footer */
 
-/* Default mode */
+/* Tabs */
 .tabbable-line > .nav-tabs {
   border: none;
   margin: 0px;
@@ -175,6 +179,7 @@ h1, h4, h3 {
 .nav-pills {
     text-align: center;
 }
+/* End Tabs */
 
 .imgContainer {
     border: 1px solid #D3D3D3;
@@ -186,16 +191,9 @@ h1, h4, h3 {
     padding: 20px 10px 10px 20px;
 }
 
-.item img {
-  border: 1px solid #D3D3D3;
-  border-radius: 10px;
-  padding: 20px 10px 10px 20px;
-  margin: 20px 0 0 20px;
-}
-
-.imgContainer:hover,
-.item img:hover {
+.imgContainer:hover {
   box-shadow: 3px 3px #D3D3D3;
+  opacity: 0.7;
 }
 
 img {
@@ -203,24 +201,19 @@ img {
     height: 150px;
 }
 
-#all,
-#past,
-#current {
-  padding: 0 0 1000px 100px;
-  margin-bottom: 800px;
+
+#all-proj,
+#past-proj {
+  margin-left: 80px;
+  margin-bottom: 1700px;
 }
 
 .modal-body {
   background: white;
 }
 
-.margin-bottom-40 {
-  margin: auto;
-  max-width: 900px;
-}
-
 hr {
   width: 10%;
-  text-align: centers;
+  text-align: center;
   color: #C0C0C0;
 }

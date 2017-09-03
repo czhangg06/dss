@@ -3,6 +3,11 @@ body {
   font-family: "Avenir";
 }
 
+hr {
+  width: 10%;
+  text-align: center;
+}
+
 .navbar {
   background: white;
   border: 0;
@@ -68,12 +73,10 @@ h1, h4, h3 {
   bottom: 0;
 }
 
-#all-social {
-  padding-left: 10px;
-}
-
 #social {
   color: white;
+  padding-left: 40px;
+  text-decoration: none;
 }
 
 /* End Base Template CSS */
@@ -204,7 +207,7 @@ h1, h4, h3 {
 }
 
 #meet-the-team {
-  margin-bottom: 450px;
+  margin-bottom: 550px;
   padding-bottom: 450px;
 }
 
@@ -269,6 +272,7 @@ h1, h4, h3 {
 
 .imgContainer:hover {
   box-shadow: 3px 3px #D3D3D3;
+  opacity: 0.7;
 }
 
 img {
@@ -279,4 +283,8 @@ img {
 
 .modal-body {
   background: white;
+}
+
+#apply p {
+  text-align: center;
 }
